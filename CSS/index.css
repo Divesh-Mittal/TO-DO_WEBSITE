@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lists{
+    list-style: none;
+    padding: 4px;
+    width: 20%;
+}
+.task-compltd{
+    text-decoration-line: line-through;
+}
+
+#right-container{
+    border: 1px solid black;
+    float: right;
+    margin: 2rem;
+    padding: 10px;
+    height: 40%;
+}
+ h2{
+    
+    margin-bottom: 12px;
+}
+#inputbx{
+    height: 20%;
+    margin: 12px 0px;
+    padding: 2px;
+}
+   
+
+#left-container{
+    /* background-color: #dba358; */
+    background-color: bisque;
+    border: 2px solid blanchedalmond;
+    width: 50%;
+    
+}
+
+
+.todo-div{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    gap: 2rem;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    margin-bottom: 4px;
+    padding: 2px;
+}
+
+.ParentContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitbtn{
+   display: block; 
+}
+
+.warning-msg{
+background-color: beige;
+position: relative;
+top: 12rem;
+right: 14rem;
+width: 12rem;
+height: 20%;
+padding: 8px;
+border: 1px solid black;
+}
+.visibility{
+    display:none;
+}
+button{
+    padding: 2px;
+}
+/* made by divesh mittal */
